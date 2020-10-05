@@ -58,39 +58,3 @@ def gaussKernel(sig, m):
     return kernel
 
 
-# Read image
-img1 = cv2.imread('einstein.tif', 0)  # f is grayscale
-img2 = cv2.imread('cameraman.tif', 0)
-
-# lena and mandril
-img3 = cv2.imread('lena512color.tiff')
-img3_gray = rgb1gray(img3, 'NTSC')
-img4 = cv2.imread('mandril_color.tif')
-img4_gray = rgb1gray(img4, 'NTSC')
-
-w1 = gaussKernel(5, 7)
-
-result1 = twodConv(img1, w1, 'replicate')
-result2 = twodConv(img2, w1, 'replicate')
-result3 = twodConv(img3_gray, w1, 'replicate')
-result4 = twodConv(img4_gray, w1, 'zero')
-
-plt.subplot(2, 2, 1)
-plt.title('einstein sigma=5')
-plt.imshow(result1, 'gray')
-
-plt.subplot(2, 2, 2)
-plt.title('cameraman sigma=5')
-plt.imshow(result2, 'gray')
-
-plt.subplot(2, 2, 3)
-plt.title('lena sigma=5')
-plt.imshow(result3, 'gray')
-
-plt.subplot(2, 2, 4)
-
-plt.title('mandril sigma=5')
-plt.imshow(result4, 'gray')
-
-plt.show()
-
