@@ -25,7 +25,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.twodConv">
+  <component name="RunManager" selected="Python.gaussBlur (1)">
     <configuration name="RgbToGray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeAssignment-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -39,6 +39,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RgbToGray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gaussBlur (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeAssignment-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gaussBlur.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gaussBlur" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeAssignment-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\concentrated_teaching_period\ImageProcessing_homework\HomeAssignment-1\gaussBlur.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,32 +110,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="twodConv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HomeAssignment-1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twodConv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.twodConv" />
+        <item itemvalue="Python.gaussBlur (1)" />
         <item itemvalue="Python.RgbToGray" />
         <item itemvalue="Python.scanLine" />
+        <item itemvalue="Python.gaussBlur" />
       </list>
     </recent_temporary>
   </component>
@@ -111,45 +133,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1537" height="148" key="GridCell.Tab.0.bottom" timestamp="1601797406550">
+    <state width="767" height="148" key="GridCell.Tab.0.bottom" timestamp="1601860571335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="148" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601797406550" />
-    <state width="1537" height="148" key="GridCell.Tab.0.center" timestamp="1601797406549">
+    <state width="767" height="148" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601860571335" />
+    <state width="767" height="148" key="GridCell.Tab.0.center" timestamp="1601860571335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="148" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601797406549" />
-    <state width="1537" height="148" key="GridCell.Tab.0.left" timestamp="1601797406548">
+    <state width="767" height="148" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601860571335" />
+    <state width="767" height="148" key="GridCell.Tab.0.left" timestamp="1601860571335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="148" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601797406548" />
-    <state width="1537" height="148" key="GridCell.Tab.0.right" timestamp="1601797406550">
+    <state width="767" height="148" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601860571335" />
+    <state width="767" height="148" key="GridCell.Tab.0.right" timestamp="1601860571335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="148" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601797406550" />
-    <state width="1537" height="260" key="GridCell.Tab.1.bottom" timestamp="1601790289982">
+    <state width="767" height="148" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601860571335" />
+    <state width="1537" height="260" key="GridCell.Tab.1.bottom" timestamp="1601860571331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601790289982" />
-    <state width="1537" height="260" key="GridCell.Tab.1.center" timestamp="1601790289982">
+    <state width="1537" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601860571331" />
+    <state width="1537" height="260" key="GridCell.Tab.1.center" timestamp="1601860571331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601790289982" />
-    <state width="1537" height="260" key="GridCell.Tab.1.left" timestamp="1601790289982">
+    <state width="1537" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601860571331" />
+    <state width="1537" height="260" key="GridCell.Tab.1.left" timestamp="1601860571331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601790289982" />
-    <state width="1537" height="260" key="GridCell.Tab.1.right" timestamp="1601790289982">
+    <state width="1537" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601860571331" />
+    <state width="1537" height="260" key="GridCell.Tab.1.right" timestamp="1601860571331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601790289982" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1601389558825">
+    <state width="1537" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601860571331" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1601858701428">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601389558825" />
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601858701428" />
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1601774748361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601774748361" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601818541738">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601818541738" />
   </component>
 </project>
